@@ -232,5 +232,9 @@ button.botao-form-voluntario{
 #site-nota{
     color: #FF5C00;
 }
-
+/* página eventos (festividades) */
+#texto-primavera a{
+    color: blue;
+    font-family: 'zabal';
+}
   
