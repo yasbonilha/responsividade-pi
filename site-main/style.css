@@ -1,0 +1,235 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+@font-face {
+    font-family: 'zabal';
+    src: url(fonts/ZabalDEMO-Regular.otf);
+}
+
+@font-face {
+    font-family: 'zabalbold';
+    src: url(fonts/ZabalDEMO-Bold.otf);
+}
+@font-face {
+    font-family: 'zabalextrabold';
+    src: url(fonts/ZabalDEMO-ExtraBold.otf);
+}
+
+/* css header */
+.titulo{
+    color:rgba(0, 38, 83, 1);
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    font-family: 'zabalextrabold';
+}
+.pesquisa{
+    position: absolute;
+    right: 15px;
+    top: 10px;
+}
+.botaopesquisa{
+    background-color: white;
+    color: #002653;
+    padding: 1px 18px;
+    border-radius: 20px;
+}
+.botaopesquisa:hover{
+    background-color: #002653;
+    color: white;
+}
+.logo{
+    position: absolute;
+    top: 25px;
+    left: 120px;
+    display: inline-block;
+    background-position: left center;
+}
+.dropdown{
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+}
+/* footer */
+footer{
+    background-color:rgba(0, 77, 142, 1);
+    color: white;
+}
+
+#footer_content{
+    background-color:rgba(0, 77, 142, 1) ;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 2rem 2rem;
+}
+.social_media{
+    display: flex;
+    margin-top: 30px;
+    gap: 1rem;
+}
+
+#Texto1-rodape {
+    margin-top: 10px;
+    margin-left: 180px;
+    font-family: 'zabal';
+}
+#Texto2-rodape {
+    margin-top: 0px;
+    margin-left: 450px;
+    font-family: 'zabal';
+}
+/* botão seja voluntário */
+.voluntario{
+    text-decoration: none;
+    font-family: 'zabal';
+    color:#002653 ;
+    border: white;
+    position: absolute;
+    top: 90px;
+    right: 150px;
+    background: white;
+}
+/* página contato */
+p.texto-contato{
+    padding-top: 50px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: 'zabal';
+}
+#box-container{
+    width: 450px;
+    height: 135px;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    text-align: center;
+    border-radius: 40px;
+    background: rgba(255, 92, 0, 0.45);
+}
+#icon_telefone{
+    position: absolute;
+    top: 360px;
+    left: 410px;
+}
+#icon_email{
+    position: absolute;
+    top: 410px;
+    left: 450px;
+}
+/* página seja voluntário */
+ h2.sejaumvoluntario{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: #002653;
+    text-align: center;
+    font-family: 'zabalbold';
+ }
+
+ p.sejavoluntario{
+    width: 750px;
+    border-radius: 20px;
+    background: rgba(0, 77, 142, 0.44);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'zabal';
+ }
+
+button.botao-form-voluntario{
+    color: white;
+    margin-left: 530px;
+    margin-bottom: 40px;
+    width: 305px;
+    height: 50px;
+    border-radius: 60px;
+    border: 1px solid #FF5C00;
+    text-align: center;
+    background: #FF5C00;
+    font-family: 'zabal';
+    font-weight: 25;
+}
+/* conteudos paginas sobre(historia,niveis,infra..) */
+.conteudo h2{
+    color: #002653;
+    font-family: 'zabalbold';
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.conteudo p{
+    font-family: 'zabal';
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+/* outras formas de doar */
+.img-outras-formas{
+    display: flex;
+    padding-left: 700px;
+    padding-bottom: 50px;
+}
+.outras-formas h2{
+    color: #002653;
+    font-family: 'zabalbold';
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.outras-formas p{
+    font-family: 'zabal';
+    display: flex;
+    margin-right: 700px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+/* carrossel - home */
+.carrossel{
+    width: 90%;
+    padding-left: 140px;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+.saiba-mais{
+    background-color: #002653;
+    border-radius: 20px;
+    color: white;
+}
+/* página agendar visita */
+.visita h2{
+    font-family: 'zabal';
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+.visita p{
+    font-family: 'zabal';
+    display: flex;
+    justify-content: center;
+}
+button.btn-visita{
+    color: white;
+    margin-left: 530px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 250px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid #002653A3;
+    text-align: center;
+    background: #002653A3;
+    font-family: 'zabal';
+}
+@media only screen and (max-device-wdith:900px){
+
+}
