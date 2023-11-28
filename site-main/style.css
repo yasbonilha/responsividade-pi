@@ -167,31 +167,24 @@ button.botao-form-voluntario{
     font-family: 'zabal';
     display: flex;
     justify-content: center;
+    text-align: justify;
     margin-left: 100px;
     margin-right: 100px;
     margin-top: 40px;
     margin-bottom: 60px;
 }
 /* outras formas de doar */
-.img-outras-formas{
-    display: flex;
-    padding-left: 700px;
-    padding-bottom: 50px;
+#img-outras{
+    padding-bottom: 25px;
 }
-.outras-formas h2{
+#outras h2{
     color: #002653;
     font-family: 'zabalbold';
-    display: flex;
-    justify-content: flex-start;
-    margin-top: 50px;
-    margin-left: 100px;
+    padding-top: 30px;
 }
-.outras-formas p{
+#outras p{
     font-family: 'zabal';
-    display: flex;
-    margin-right: 700px;
-    margin-top: 40px;
-    margin-bottom: 60px;
+    text-align: justify;
 }
 /* carrossel - home */
 .carrossel{
@@ -206,30 +199,36 @@ button.botao-form-voluntario{
     color: white;
 }
 /* página agendar visita */
-.visita h2{
-    font-family: 'zabal';
-    display: flex;
-    justify-content: center;
-    padding-top: 25px;
+.titulo-2{
+    color:rgba(0, 38, 83, 1);
+    text-align: left;
+    padding-top: 50px;
+    font-family: 'zabalbold';
 }
-.visita p{
-    font-family: 'zabal';
-    display: flex;
-    justify-content: center;
-}
-button.btn-visita{
-    color: white;
-    margin-left: 530px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    width: 250px;
-    height: 50px;
-    border-radius: 50px;
-    border: 1px solid #002653A3;
+.center{
     text-align: center;
-    background: #002653A3;
+}
+.btn-doar{
+    width: 352px;
+    height: 44px;
+    flex-shrink: 0;
+    border: 1px solid rgba(0, 38, 83, 1);
+    border-radius: 50px;
+    background: rgba(0, 38, 83, 1);
+    text-align: center;
+    color: white;
+}
+#texto-visita{
     font-family: 'zabal';
 }
-@media only screen and (max-device-wdith:900px){
-
+/* página nota fiscal */
+#img-nota{
+    padding-bottom: 25px;
+}
+#nota-fiscal p{
+    font-family: 'zabal';
+    text-align: justify;
+}
+#site-nota{
+    color: #FF5C00;
 }
