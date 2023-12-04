@@ -60,25 +60,21 @@ footer{
 }
 
 #footer_content{
-    background-color:rgba(0, 77, 142, 1) ;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    padding: 2rem 2rem;
+    background-color:rgba(0, 77, 142, 1);
 }
 .social_media{
     display: flex;
     margin-top: 30px;
     gap: 1rem;
+    padding: 50px;
 }
 
 #Texto1-rodape {
-    margin-top: 10px;
-    margin-left: 180px;
+    margin-right: 10px;;
     font-family: 'zabal';
 }
 #Texto2-rodape {
-    margin-top: 0px;
-    margin-left: 450px;
+    margin-right: 10px;
     font-family: 'zabal';
 }
 /* botão seja voluntário */
@@ -110,7 +106,7 @@ p.texto-contato{
     border-radius: 40px;
     background: rgba(255, 92, 0, 0.45);
 }
-#icon_telefone{
+/* #icon_telefone{
     position: absolute;
     top: 360px;
     left: 410px;
@@ -119,7 +115,7 @@ p.texto-contato{
     position: absolute;
     top: 410px;
     left: 450px;
-}
+} */
 /* página seja voluntário */
  h2.sejaumvoluntario{
     padding-top: 50px;
